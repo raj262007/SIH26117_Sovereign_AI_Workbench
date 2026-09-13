@@ -1,0 +1,41 @@
+================================================================================
+REFINERY PIPING INSPECTION REPORT - ULTRASONIC THICKNESS (UT) MEASUREMENTS
+Report ID: UT-SCAN-2024-104
+Facility: Strategic Petroleum Directorate / Refinery Unit CDU-1
+Inspection Date: 2024-08-15
+Inspector: Lead Inspector R. K. Sharma (ID: INS-8821)
+Applicable Standard: API 570 In-Service Piping Inspection Code
+================================================================================
+
+PIPE SPECIFICATION & SERVICE:
+Line Number: 10"-HC-1004-CS300 (Heavy Crude Overhead Line)
+Nominal Diameter: 10 inches (254 mm)
+Pipe Material: ASTM A106 Grade B Carbon Steel
+Nominal Original Wall Thickness: 8.00 mm
+Operating Temperature: 240 °C
+Design Pressure: 2.1 MPa
+
+MINIMUM REGULATORY THRESHOLDS (API 570 & INTERNAL SOP):
+Minimum Structural Retirement Thickness (T_min): 2.80 mm
+Mandatory Corrosion Safety Allowance (Margin): 0.50 mm
+Critical Retirement Threshold (T_threshold = T_min + Margin): 3.30 mm
+
+ULTRASONIC THICKNESS (UT) MEASUREMENT POINTS:
+--------------------------------------------------------------------------------
+Point ID   Location Description          Nominal (mm)   Measured (mm)   Condition
+--------------------------------------------------------------------------------
+T-01       Upstream Elbow Extrados       8.00           7.45            ACCEPTABLE
+T-02       Upstream Straight Section     8.00           7.60            ACCEPTABLE
+T-03       Flange Weld Heat-Affected     8.00           6.90            ACCEPTABLE
+T-10       Flow Reducer Transition       8.00           5.10            MONITOR
+T-11       Control Valve Bypass Loop     8.00           4.30            DEGRADED
+T-12       Lower Elbow Impingement Point 8.00           3.20            ACTION REQ
+T-13       Downstream Straight Section   8.00           6.80            ACCEPTABLE
+--------------------------------------------------------------------------------
+
+OBSERVATIONS & INSPECTOR NOTES:
+Location T-12 exhibits severe localized erosion-corrosion. Wall thickness has
+degraded to 3.20 mm. Immediate engineering verification against API 570 safety
+margin (3.30 mm threshold) is required. If breached, immediate de-rating or
+shutdown isolation memo must be issued.
+================================================================================

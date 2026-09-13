@@ -1,0 +1,40 @@
+REFINERY PIPING INSPECTION REPORT - ULTRASONIC THICKNESS (UT) MEASUREMENTS
+Report ID: UT-SCAN-2026-CCR-REFORMER-FEED
+Facility: Coastal Energy Hub / Continuous Catalytic Reforming Unit (CCR-Platformer)
+Inspection Date: 2026-09-13
+Inspector: Senior Reliability Specialist M. S. Rathore (ID: REL-6702)
+Applicable Standard: API 570 In-Service Piping Inspection Code / ASME B31.3
+================================================================================
+
+PIPE SPECIFICATION & SERVICE:
+Line Number: 06"-CR-6201-CS-NACE (Reformer Effluent & Net Hydrogen Separator Feed)
+Nominal Diameter: 6 inches (168.3 mm OD)
+Pipe Material: ASTM A106 Grade B Carbon Steel
+Nominal Original Wall Thickness: 7.11 mm (Sch 40)
+Operating Temperature: 185 °C
+Design Pressure: 4.2 MPa
+
+MINIMUM REGULATORY THRESHOLDS (API 570 & INTERNAL SOP):
+Minimum Structural Retirement Thickness (T_min): 2.30 mm
+Mandatory Corrosion Safety Allowance (Margin): 0.60 mm
+Critical Retirement Threshold (T_threshold = T_min + Margin): 2.90 mm
+
+ULTRASONIC THICKNESS (UT) MEASUREMENT POINTS:
+--------------------------------------------------------------------------------
+Point ID   Location Description                 Nominal (mm)   Measured (mm)
+--------------------------------------------------------------------------------
+CR-01      Exchanger Overhead Outlet Spool      7.11           6.80
+CR-02      Separator Knockout Feed Header       7.11           5.10
+CR-03      Chloride Quench Injection Elbow      7.11           2.75
+CR-04      Recirculation Bypass Loop            7.11           4.60
+CR-05      Low-Point Dead-Leg Drain Spool       7.11           2.10
+--------------------------------------------------------------------------------
+
+OBSERVATIONS & INSPECTOR NOTES:
+Dual regulatory breaches identified:
+1. CR-03 (2.75 mm) breaches the Critical Retirement Threshold (2.90 mm) due to localized 
+   ammonium chloride salt deposition and high-velocity impingement (Deficit: -0.15 mm).
+2. CR-05 (2.10 mm) breaches the absolute Minimum Structural Retirement Thickness (T_min = 2.30 mm) 
+   due to stagnant under-deposit acid condensation. Operating below T_min is non-compliant 
+   under API 570 Clause 7.2. Immediate isolation or emergency line de-pressurization required.
+================================================================================

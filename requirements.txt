@@ -1,0 +1,28 @@
+# Core Agent & Orchestration
+langgraph>=0.2.0
+langchain-core>=0.3.0
+litellm>=1.40.0
+
+# Durable Macro-Orchestration (Temporal.io)
+temporalio>=1.7.0
+
+# Observability & Tracing (Langfuse)
+langfuse>=2.36.0
+
+# Document & Spreadsheet Generation
+python-docx>=1.1.0
+openpyxl>=3.1.2
+
+# Document & PDF Parsing
+pypdf>=4.2.0
+pymupdf>=1.24.0
+
+# Visual Analytics
+data-formulator>=0.1.0
+
+# Configuration & Utilities
+python-dotenv>=1.0.1
+pydantic>=2.7.0
+requests>=2.31.0
+psutil>=5.9.0
+

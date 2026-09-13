@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+
+# Generated deliverables & outputs (keep data/sample_inputs)
+data/outputs/*
+!data/outputs/.gitkeep
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Node / Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db*
+data/chroma_db/

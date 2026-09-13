@@ -1,0 +1,49 @@
+# ==========================================================
+# LiteLLM Proxy & Routing Matrix
+# Supports dynamic switching between Phase 1 (Cloud) and Phase 2 (Local)
+# ==========================================================
+
+model_list:
+  # --------------------------------------------------------
+  # 1. Vision & Multimodal Engine (P&IDs, Scanned Reports, Drawings)
+  # --------------------------------------------------------
+  - model_name: vision-engine
+    litellm_params:
+      # Phase 1: Cloud Open-Weight Model (Groq Llama 3.2 Vision)
+      model: groq/llama-3.2-11b-vision-preview
+      api_key: os.environ/GROQ_API_KEY
+      # Phase 2 (Uncomment for Air-Gapped Demo):
+      # model: ollama/qwen2.5-vl:3b
+      # api_base: http://localhost:11434
+
+  # --------------------------------------------------------
+  # 2. Engineering Coding & Sandbox Engine (Calculations, Python CodeAct)
+  # --------------------------------------------------------
+  - model_name: coding-engine
+    litellm_params:
+      # Phase 1: Cloud Open-Weight Model (Groq Qwen 2.5 Coder 32B)
+      model: groq/qwen-2.5-coder-32b
+      api_key: os.environ/GROQ_API_KEY
+      # Phase 2 (Uncomment for Air-Gapped Demo):
+      # model: ollama/qwen2.5-coder:1.5b
+      # api_base: http://localhost:11434
+
+  # --------------------------------------------------------
+  # 3. Policy & Complex Reasoning Engine (Memos, Standards Verification)
+  # --------------------------------------------------------
+  - model_name: reasoning-engine
+    litellm_params:
+      # Phase 1: Cloud Open-Weight Model (Groq DeepSeek R1 Distill 70B)
+      model: groq/deepseek-r1-distill-llama-70b
+      api_key: os.environ/GROQ_API_KEY
+      # Phase 2 (Uncomment for Air-Gapped Demo):
+      # model: ollama/deepseek-r1:1.5b
+      # api_base: http://localhost:11434
+
+# ==========================================================
+# Microsoft Data Formulator Integration:
+# Data Formulator connects to this LiteLLM proxy or directly
+# uses 'coding-engine' (Qwen2.5-Coder) for DuckDB SQL & Vega-Lite
+# visualization generation at http://localhost:5567
+# ==========================================================
+

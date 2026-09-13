@@ -1,0 +1,18 @@
+//frontend
+Step 1:cd frontend
+Step 2:npm install
+Step 3:npm run dev
+
+//backend
+Step 1:cd backend
+Step 2: python3 src/server.py
+
+//temporal
+Step 1:activate python virtual environment
+Step 2:brew install temporal
+Step 3:temporal server start-dev
+//orchestrator
+// first start temporal
+Step 1:python3 -m src.orchestration.worker
+//data formulator
+Step 1:python3 -m src.agents.data_formulator

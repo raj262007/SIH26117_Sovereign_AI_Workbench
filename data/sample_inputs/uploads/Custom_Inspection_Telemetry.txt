@@ -1,0 +1,5 @@
+Report ID: UT-CUSTOM-TEST
+Line Number: 06"-CW-1010
+Applicable Standard: API 570
+Critical Retirement Threshold: 3.30
+T-05 Heat Exchanger Inlet 8.00 3.10 ACTION REQ

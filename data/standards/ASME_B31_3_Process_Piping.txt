@@ -1,0 +1,32 @@
+AMERICAN SOCIETY OF MECHANICAL ENGINEERS - ASME CODE FOR PRESSURE PIPING
+ASME B31.3: Process Piping Design and Structural Integrity Code
+
+CHAPTER II: DESIGN OF PIPING COMPONENTS UNDER PRESSURE
+Paragraph 304.1: Straight Pipe Under Internal Pressure
+The required thickness of straight pipe sections subjected to internal pressure shall not be less than the design minimum thickness plus corrosion and mechanical allowances:
+    t_m = t + c
+Where:
+    t_m = Total minimum required thickness including all allowances (mm).
+    t = Pressure design thickness (mm).
+    c = Sum of mechanical allowances (thread depth or groove depth) plus corrosion and erosion allowance.
+
+Paragraph 304.1.2: Pressure Design Thickness Formula
+For pipe with t < D/6, the internal pressure design thickness for cylindrical pipes is given by:
+    t = (P * D) / (2 * (S * E * W + P * Y))
+Where:
+    P = Internal design gauge pressure (MPa).
+    D = Outside diameter of pipe (mm).
+    S = Basic allowable stress value for material from Table A-1 (MPa).
+    E = Quality factor from Table A-1A or Table A-1B (1.00 for seamless CS).
+    W = Weld joint strength reduction factor per Para 302.3.5(e).
+    Y = Material and temperature coefficient (0.4 for carbon steel up to 482°C / 900°F).
+
+CHAPTER III: MATERIALS AND DESIGN STRESS LIMITS
+Paragraph 302.3.5: Limits of Calculated Stresses Due to Sustained Loads
+The sum of external axial stresses produced by sustained loads such as internal pressure, weight of pipe and contents, and external insulation must not exceed the basic allowable stress (S_h) at maximum metal temperature:
+    S_L <= S_h
+For ASTM A106 Grade B carbon steel, allowable tensile stress S_h is 20.0 ksi (137.9 MPa) between -29°C and 204°C.
+
+CHAPTER V: FABRICATION, ASSEMBLY, AND TESTING
+Paragraph 341.4: Extent of Required Non-Destructive Examination
+Components carrying Category M fluid (hazardous hydrocarbons, sour gas) require 100% volumetric and ultrasonic examination of circumferential butt welds and high-strain branch fittings. Any measured wall thinning below the structural integrity design envelope requires immediate formal engineering disposition.

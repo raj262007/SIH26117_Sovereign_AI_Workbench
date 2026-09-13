@@ -1,0 +1,45 @@
+AMERICAN PETROLEUM INSTITUTE - API RECOMMENDED PRACTICE & STANDARDS
+API 570 (4th Edition): Piping Inspection Code: In-service Inspection, Rating, Repair, and Alteration of Piping Systems
+
+SECTION 4: INSPECTION PRACTICES AND REPAIR PROTOCOLS
+Clause 4.1: General Scope and Responsibilities
+Owners and operators of hydrocarbon processing piping systems must establish a mechanical integrity program that ensures all pressure-containing components are inspected at intervals not exceeding the calculated remaining safe operating life. Ultrasonic thickness (UT) scanning is the primary non-destructive examination (NDE) method for detecting localized and general wall thinning.
+
+Clause 4.2: Thickness Measurement Locations (TMLs) and Condition Monitoring Locations (CMLs)
+TMLs must be placed at representative points along the piping circuit with special emphasis on high-turbulence zones:
+- Elbow extrados and intrados where flow impingement accelerates erosive wear.
+- Weldolets, nozzle intersections, and tee junctions.
+- Deadlegs, control valve bypasses, and injection points subject to sour crude corrosion.
+
+SECTION 7: RETIREMENT THICKNESS AND SAFETY MARGIN CALCULATIONS
+Clause 7.1: Minimum Required Thickness Determination
+The minimum required thickness (t_min) of a straight pipe under internal pressure must be calculated in accordance with ASME B31.3:
+    t_min = (P * D) / (2 * (S * E + P * Y))
+Where:
+    P = Design internal design gauge pressure (psi or MPa).
+    D = Outside pipe diameter (mm or inches).
+    S = Maximum allowable stress at design temperature for specified metallurgy (ASTM A106 Grade B = 138 MPa).
+    E = Longitudinal weld joint quality factor (1.0 for seamless piping).
+    Y = Wall coefficient factor (0.4 for ferritic steels below 482°C).
+
+Clause 7.1.1: Structural Minimum and Alert Retirement Limits
+In low-pressure or nominal structural circuits (such as NPS 10 CS lines), structural minimum thickness (t_structural) governs whenever t_structural > t_min.
+For NPS 10 Carbon Steel ASTM A106 Grade B piping:
+    - Minimum Structural Base Limit (t_min): 2.80 mm.
+    - Safety Engineering Corrosion Margin (Margin): 0.50 mm.
+    - Critical Retirement Threshold (t_retire = t_min + Margin): 3.30 mm.
+
+Clause 7.2: Immediate Mandatory Actions upon Retirement Breach
+If an ultrasonic reading (t_actual) at any monitored CML or TML is measured to be less than the Critical Retirement Threshold (3.30 mm):
+1. Immediate Alert: The inspection authority must issue an immediate Non-Conformance Notice (NCN) to the Refinery Operations Division.
+2. Pressure De-rating or Isolation: The operating line pressure must be reduced immediately to maintain hoop stress below allowable limits, or the spool must be isolated.
+3. Repair / Replacement Mandate: An engineered clamp enclosure or full spool replacement must be executed within 30 operational days.
+4. Non-Compliant Operation Prohibition: Under no circumstances may a line with wall thickness below structural minimum (2.80 mm) remain pressurized without active management exemption.
+
+SECTION 8: CORROSION RATE AND REMAINING LIFE ESTIMATION
+Clause 8.1: Corrosion Rate Formulations
+Short-Term Corrosion Rate (ST_CR) = (t_previous - t_actual) / Time_between_scans (years).
+Long-Term Corrosion Rate (LT_CR) = (t_initial - t_actual) / Time_since_commissioning (years).
+Remaining Safe Operating Life (RL):
+    RL = (t_actual - t_min) / Maximum(ST_CR, LT_CR)
+If RL is calculated to be under 2.0 calendar years, the inspection frequency must be doubled to bi-monthly acoustic monitoring.
